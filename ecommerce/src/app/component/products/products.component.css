@@ -1,0 +1,29 @@
+.item img {
+    width: 64px;
+}
+
+.item {
+    margin: 0px 15px;
+    text-align: center;
+}
+
+.item a:hover {
+    color: blue;
+}
+
+.card {
+    padding: 10px;
+    margin: 30px;
+}
+
+.card img {
+    width: 100px;
+    height: 110px;
+    margin-bottom: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+.card img:hover {
+    transition: 0.2s ease-in-out;
+    transform: scale(1.1);
+}
